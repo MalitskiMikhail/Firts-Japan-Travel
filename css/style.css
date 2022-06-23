@@ -167,18 +167,20 @@ img{
   display: flex;
   flex-wrap: wrap;
 }
+
 .header__item{
   margin-right: 82px;
 }
+
 .header__item:last-child {
   margin-right: 0px;
 }
+
 .header__link{
   font-size: 18px;
   line-height: 24px;
   color: white;
   text-decoration: none;
-
 }
 
 .header__link:hover, .header__link:focus, .header__link:active {
@@ -222,7 +224,7 @@ img{
 
 .intro{
   min-height: 100vh;
-  background: url(../img/intro-bg.jpg) no-repeat center;
+  background: url(../img/intro-bg-min.jpg) no-repeat center;
   background-size: cover; 
   padding-top: 263px;
   padding-bottom: 223px;
